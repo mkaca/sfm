@@ -1,5 +1,5 @@
 import cv2
-from src.constants import RESIZE_DIMENSIONS, FEATURE_MATCHES_LIMIT
+from src.constants import RESIZE_DIMENSIONS
 import os
 
 SIFT_CONTRAST_THRESHOLD = 0.095 # a higher value will result in stronger, but fewer features

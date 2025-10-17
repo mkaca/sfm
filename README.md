@@ -45,6 +45,25 @@ When there is rotation, the epipolar lines will converge to a single point.
 A 3x4 matrix which is the product of the Intrinsic Camera Matrix (K) and the Extrinsic Matrix ([R∣t]) <br>
 P = K x [R∣t] <br>
 
-# TODO:
-- show projected transform points with homography
+
+## Visualizations
+
+### Image 1 with pt1
+Image 1 with feature points
+![Image1](output_images/pts_visualization1.jpg)
+
+### Image 2 with pt1
+Image 2 with feature points
+![Image2](output_images/pts_visualization2.jpg)
+
+### Points2 overlayed on image 1 with homography
+![Pts2 on Image1](output_images/pts_visualization_H_transformed_1.jpg)
+
+### Matches visualized
+![Matches](output_images/matches_visualization.jpg)
+
+
+## Future Work
+- Modify pipeline to take in multiple images in sequence
+- Create 3D Scene using SFM with another library like open3d and pyceres
 - Add todo for structure from Motion with multiple images and a pipeline!!
